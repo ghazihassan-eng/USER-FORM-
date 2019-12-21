@@ -1,0 +1,54 @@
+<h2><center> FORM</center></h2>
+	<form action="process.php">
+		
+		<div>
+			<label for="NAME">NAME</label><br>
+			<input type="text" name="NAME" id="NAME">
+		</div>
+
+		<div>
+			<label for="EMAIL">EMAIL</label><br>
+			<input type="EMAIL" name="EMAIL" id="EMAIL" placeholder="abcdefgh@gmail.com">
+		</div>
+		
+		<div>
+			<label for="MESSAGE">MESSAGE</label><br>
+			<textarea name="MESSAGE" id="MESSAGE" cols="10" rows="2"></textarea>
+		</div>
+
+		<div>
+			<label for="SEX">SEX</label>
+			<select name="SEX" id="SEX">
+				<option value="MALE">MALE</option>
+				<option value="FEMALE">FEMALE</option>
+				<option value="OTHER">OTHER</option>
+			</select>
+		</div>
+		<div>
+			<label for="AGE">AGE</label><br>
+			<input type="NUMBER" name="AGE" id="AGE">
+		</div>
+
+		<div>
+			<label for="DATEBIRTH">DATEBIRTH</label>
+			<input type="DATE" name="DATEBIRTH" id="DATEBIRTH">
+		</div>
+
+		<div>
+			<label for="MEMBERSHIP">MEMBERSHIP</label>
+			<input type="RADIO" name="MEMBERSHIP" id="MEMBERSHIP" value="SIMPLE">SIMPLE
+			<input type="RADIO" name="MEMBERSHIP" id="MEMBERSHIP" value="STANDARD" checked="">STANDARD
+			<input type="RADIO" name="MEMBERSHIP" id="MEMBERSHIP" value="EXTREME">EXTREME
+		</div>
+
+		<div>
+			<label for="like">like</label>
+			<input type="checkbox" name="like" id="like" value="bike">bike
+			<input type="checkbox" name="like" id="like" value="car" checked="">car
+			<input type="checkbox" name="like" id="like" value="boat">boat
+
+		</div>
+		<button type="SUBMIT" >SUBMIT</button>
+		<button type="RESET">RESET</button>
+
+	</form>
